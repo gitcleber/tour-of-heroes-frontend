@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'tour-of-heroes-frontend';
+
+  isAuthenticated: boolean = false;
+
+  logout() {
+    this.isAuthenticated = false;
+  }
+  login() {
+    this.isAuthenticated = true;
+  }
 }
