@@ -2,6 +2,16 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.9.
 
+## Descrição
+
+Projeto para estudar fundamentos do Angular, feito seguindo as orientações do curso (https://www.youtube.com/playlist?list=PLqsayW8DhUmvtNlkDqYj99X73ts9FLK7j)
+
+Também acrescentado novas features para pratica de outras funcionalidades do framework Angular.
+
+## Projeto em Produção
+
+https://tour-of-heroes-ten.vercel.app/
+
 ## Quality of the Code
 
 [![DeepScan grade](https://deepscan.io/api/teams/19057/projects/22400/branches/659747/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=19057&pid=22400&bid=659747)
