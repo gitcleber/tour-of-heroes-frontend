@@ -24,6 +24,8 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatOptionModule } from '@angular/material/core';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatSelectModule } from '@angular/material/select';
+import { MatTooltipModule } from '@angular/material/tooltip';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 
 
@@ -35,7 +37,8 @@ import { MatSelectModule } from '@angular/material/select';
     HeroDetailComponent,
     MessagesComponent,
     HomeComponent,
-    GameComponent
+    GameComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
@@ -55,6 +58,7 @@ import { MatSelectModule } from '@angular/material/select';
     MatInputModule,
     MatTableModule,
     MatSelectModule,
+    MatTooltipModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
